@@ -1,1 +1,1 @@
-Minimalist personal website based on twitter bootstrap.
+Minimalist personal static website.

@@ -5,3 +5,56 @@
 .lead {
   padding-top: 30px;
 }
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+  text-align: center;
+}
+
+body { 
+	max-width: 650px; 
+	margin: 0 auto !important; 
+	float: none !important; 
+}
+
+p {
+  font-size: 14px;
+}
+
+img {
+  float: left; 
+  margin: 5px;
+}
+
+/*Changes the color of the navigation text*/
+.navbar-default .navbar-nav li a {
+  color: #fff;
+}
+
+.nav-item .nav-link {
+  color: gray;
+}
+
+/*Removes background color and text color from navigation items on hover & on focus*/
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:focus {
+color: #fff;
+background: transparent;
+}
+
+/*Removes background color and changes the text color of active items using scroll-spy*/
+.navbar-default .nav > li.active > a,
+.navbar-default .nav > li.active > a:hover,
+.navbar-default .nav > li.active > a:focus {
+background: transparent;
+color: #ccc;
+}
+
+a {
+  color:black;
+}
+
+a:link a:visited a:hover a:active {
+  color: black;
+}
